@@ -1,0 +1,23 @@
+
+main {
+  /* margin: 10px; */
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* From https://css.glass */
+  background: rgba(36, 30, 33, 0.13);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(36, 30, 33, 0.08);
+}
+.highlight {
+  background-color: yellow;
+}
+
+.error {
+  background-color: lightcoral;
+  border: red;
+}
